@@ -1,0 +1,79 @@
+.card-testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 31px;
+  max-width: 350px;
+
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.2s box-shadow ease-in, 0.2s color ease-in;
+
+  &:hover {
+    box-shadow: (0px 10px 52px rgba(0, 0, 0, 0.08));
+    .card-testimonial__city {
+      color: #f78434;
+    }
+  }
+}
+
+.card-testimonial__img-wrapper {
+  position: relative;
+}
+
+.card-testimonial__btn-play--img {
+  circle {
+    fill: #fff;
+  }
+  path {
+    fill: #f78434;
+  }
+}
+
+.card-testimonial__btn-play {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  transform: translateY(50%);
+  opacity: 0;
+  .card-testimonial:hover & {
+    transform: translateY(0%);
+    opacity: 1;
+    transition: 0.2s transform ease-in,
+    0.2s opacity ease-in;
+  }
+
+  &:hover {
+    circle {
+      fill: #f78434;
+      transition: 0.2s fill ease-in;
+    }
+    path {
+      fill: #fff;
+      transition: 0.2s fill ease-in;
+    }
+  }
+}
+
+.card-testimonial__body {
+  padding: 30px;
+}
+
+.card-testimonial__text {
+  margin-bottom: 23px;
+  line-height: 27px;
+  letter-spacing: 1.15px;
+}
+.card-testimonial__name {
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.6px;
+}
+.card-testimonial__city {
+  line-height: 27px;
+  letter-spacing: 1.15px;
+  color: #58bebf;
+}

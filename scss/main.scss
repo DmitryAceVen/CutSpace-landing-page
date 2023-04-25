@@ -1,0 +1,26 @@
+//Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+//Blocks
+@import "./blocks/title";
+@import "./blocks/btn";
+@import "./blocks/nav";
+@import "./blocks/logo";
+@import "./blocks/navigation-list";
+@import "./blocks/header";
+@import "./blocks/header-form";
+@import "./blocks/clients";
+@import "./blocks/objects";
+@import "./blocks/img-card";
+@import "./blocks/card-info";
+@import "./blocks/cta";
+@import "./blocks/serve";
+@import "./blocks/card-customer";
+@import "./blocks/benefits";
+@import "./blocks/testimonials";
+@import "./blocks/card-testimonial";
+@import "./blocks/contact-us";
+@import "./blocks/footer";

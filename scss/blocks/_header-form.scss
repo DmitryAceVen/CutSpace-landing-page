@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  max-width: 460px;
+  box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+  border-radius: 29px;
+  transition: box-shadow 0.2s ease-in;
+
+  &--active {
+    box-shadow: 0px 17px 42px rgb(189, 211, 225);
+  }
+}
+
+.form__label {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url(./../img/header/icons/mail.svg);
+    height: 19px;
+    width: 24px;
+    top: 21px;
+    left: 28px;
+  }
+}
+
+.form__input {
+  flex-grow: 1;
+  padding-left: 72px;
+  &::placeholder {
+    color: #bbbbbb;
+  }
+}

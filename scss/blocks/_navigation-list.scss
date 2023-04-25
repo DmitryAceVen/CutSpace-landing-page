@@ -1,0 +1,22 @@
+.navigation-list {
+    ul {
+      display: flex;
+      column-gap: 42px;
+    }
+    a {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+
+      transition: 0.2s ease-in;
+
+      &:hover {
+        color: $accent-color;
+      }
+
+      &.active{
+        color: $accent-color;
+        font-weight: 700;
+      }
+    }
+  }

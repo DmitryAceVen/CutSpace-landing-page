@@ -1,0 +1,36 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #323232;
+  font-size: 16px;
+}
+a {
+  color: #323232;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 15px;
+
+  &--fluid {
+    max-width: unset;
+    width: 100%;
+  }
+  &--no-padding {
+    padding: 0;
+  }
+}
+
+.none {
+  display: none;
+}
+
+.visually-hidden {
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  display: block;
+  margin-left: -100000px;
+  font-size: 0;
+  background: transparent;
+}

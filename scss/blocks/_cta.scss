@@ -1,0 +1,53 @@
+.cta {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #fff;
+}
+
+.cta__block {
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+
+  background-color: #58bebf;
+  border-radius: 20px;
+}
+
+.cta__img {
+  margin-top: 60px;
+  background-color: #fff;
+  padding: 25px 25px 0 0;
+  border-radius: 0 20px 0 0;
+}
+
+.cta__text {
+  max-width: 555px;
+  box-sizing: border-box;
+  padding: 0 95px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    max-width: 342px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 1.15px;
+  }
+  background: url(./../../img/cta/cirkles-buttom-left.svg) bottom -1px left -186px
+      no-repeat,
+    url(./../../img/cta/cirkles-right--top.svg) right top no-repeat;
+}
+
+.cta__title {
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+.cta__bottoms-row {
+  display: flex;
+  column-gap: 20px;
+}

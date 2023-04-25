@@ -1,0 +1,43 @@
+.objects {
+    padding-bottom: 74px;
+}
+
+.object__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+
+  @media (max-width:1495px) {
+    justify-content:flex-end;
+  }
+}
+
+.objects__text {
+
+  width: 374px;
+  padding-left:137px;
+  padding-right: 150px;
+  box-sizing: content-box;
+  flex-shrink: 0;
+}
+
+.objects__content {
+  margin-bottom: 40px;
+}
+
+.objects__title {
+  padding-bottom: 20px;
+}
+
+.objects__content p {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 1.15px;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
